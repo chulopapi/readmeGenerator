@@ -1,3 +1,8 @@
+//definition of read and write files and inquire module
+
+const fs = require('fs');
+const inquirer = require('inquirer');
+
 // array of questions for user
 const questions = [
 
@@ -14,3 +19,5 @@ function init() {
 
 // function call to initialize program
 init();
+
+
