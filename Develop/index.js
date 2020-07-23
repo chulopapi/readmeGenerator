@@ -4,26 +4,58 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// Prompt the user
+// Prompt the user for questions
 inquirer
   .prompt([
     {
-      type: 'input',
-      name: 'name',
-      message: 'What is your name?'
+        type: "input",
+        message: "What is your project title?",
+        name: "title",
+    },
+    {
+        type: "input",
+        message: "Enter Description of your project: ",
+        name: "description",
+    },
+    {
+        type: "input",
+        message: "What are the installation instructions for your project?",
+        name: "installation",
+        default: "There are no specific intallation for this project”"
+    },
+    {
+        type: "input",
+        message: "Describe the use of this project?",
+        name: "title",
     },
     {
       type: 'list',
-      message: 'What is your preferred method of communication?',
-      name: 'contact',
-      choices: ['email', 'phone', 'Slack', 'smoke signal']
+      message: 'Please choose a license you used for this project.',
+      name: 'lic',
+      choices: ['GNU GPLv3', 'GNU LGPLv3', 'Mozilla', 'MIT','Apache','Boost']
     },
     {
-      type: 'checkbox',
-      message: 'What languages do you know?',
-      name: 'stack',
-      choices: ['HTML', 'CSS', 'JavaScript', 'SQL']
-    }
+        type: "input",
+        message: "Describe how to contribute to this project?",
+        name: "contribution",
+    },
+    {
+        type: "input",
+        message: "Please enter if any testing protocols were used for your project?",
+        name: "test",
+        default: "No test provided"
+    },
+    {
+        type: "input",
+        message: "Please enter your gitHub Username:",
+        name: "userName",
+    },
+    {
+        type: "input",
+        message: "Please enter your email address:",
+        name: "userEmail",
+    },
+
   ]) // Write the user response to a file by chaining the below callback method to the prompt above.
   .then(function(data) {
     // Bonus: Generate the name of your user file from their input
