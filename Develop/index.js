@@ -98,7 +98,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt().then((data) => {
+        console.log(JSON.stringify(data,null,2));
+        writeToFile("README.md", data);
+    });
 }
 // function call to initialize program
 init();
