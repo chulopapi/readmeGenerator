@@ -56,45 +56,49 @@ inquirer
         name: "userEmail",
     },
 
-  ]) // Write the user response to a file by chaining the below callback method to the prompt above.
-  .then(function(data) {
-    // Bonus: Generate the name of your user file from their input
-    const filename =
-      data.name
-        .toLowerCase()
-        .split(' ')
-        .join('') + '.json';
+  ]) 
+  
+  // Writing the user response to a file by chaining the below callback method to the prompt above.
+  //.then(function(data) {
+    // Generate the name of your user file from their input
+    //const filename =
+   //   data.name
+  //      .toLowerCase()
+  //      .split(' ')
+  //      .join('') + '.json';
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
-      if (err) {
-        return console.log(err);
-      }
+  ////  fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
+  //    if (err) {
+   //     return console.log(err);
+   //   }
 
-      console.log('Success!');
-    });
-  });
-
+    //  console.log('Success!');
+   // });
+ // });
 
 
 // array of questions for user
-const questions = [
-    {
-    type: "input",
-    message: "What is your project title?",
-    name: "title",
-    },
-];
+//const questions = [
+  //  {
+  //  type: "input",
+  //  message: "What is your project title?",
+  //  name: "title",
+  ////  },
+//];
 
 // function to write README file
 function writeToFile(fileName, data) {
+    let inputData = generateMarkdown(data);
+    fs.writeFileSync(fileName,inputData,function(err){
+        if(err) {
+            return console(err);
+        }
+    });    
 }
 
 // function to initialize program
 function init() {
 
 }
-
 // function call to initialize program
 init();
-
-
