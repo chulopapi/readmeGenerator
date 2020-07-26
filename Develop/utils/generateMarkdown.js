@@ -1,6 +1,13 @@
 // function to generate markdown for README
 const mapOfKeyToMarkDown = new Map([
-  ['title','#'],
+  ['title','# Title: '],
+  ['description','# Description: '],
+  ['installation','# Installation: '],
+  ['lic','# License: '],
+  ['contribution','# Contribution: '],
+  ['test','# Test: '],
+  ['userName','# Github UserName: '],
+  ['userEmail','# User Email: '],
 ]);
 
 function generateMarkdown(data) {
