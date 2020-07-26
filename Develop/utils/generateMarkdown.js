@@ -7,10 +7,10 @@ const mapOfKeyToMarkDown = new Map([
   ['lic','## License: '],
   ['contribution','## Contribution: '],
   ['test','## Test: '],
-  ['userName','## Github UserName: '],
+  ['userName','## Github UserName:'],
   ['userEmail','## User Email: '],
 ]);
-
+ 
 function generateMarkdown(data) {
   // create a new string to return;
   let results = "";
@@ -20,9 +20,7 @@ function generateMarkdown(data) {
   // translate the keys into markdown
   keys.forEach(key => {
     // for each key we need the mark down and the value
-    results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;
-  
-  });
+    results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;});
   // console.log the results
   console.log("RESULTS =>", results);
   // return the results

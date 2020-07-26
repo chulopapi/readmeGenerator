@@ -1,15 +1,20 @@
-# Professional README Generator Starter Code
+# Project Name: Readme Generator
 
-[How to create a Professional README](./readme-guide.md)
+This program is published at the following website:https://chulopapi.github.io/readmeGenerator/. 
 
-test: 
+Github Reposatory: https://github.com/chulopapi/readmeGenerator
 
-# Project Title: SafeTravels
-## Description:  SafeTravels
-## Install Instructions:  There are no specific intallation for this project”
-## Project use:  SafeTravels
-## License:  GNU GPLv3
-## Contribution:  SafeTravels
-## Test:  SafeTravels
-## Github UserName:  chulopapi
-## User Email:  marlon.guandique@gmail.com
+This program uses a simple command line using Inquirer package for Node.js.  The program requires that the user provides a series of questions that are needed to generate a README file based on their responses such as Title, Project Name, License and more.
+
+# Installation:
+1. Clone the repo from github: https://chulopapi.github.io/readmeGenerator/. 
+2. Install Node.js framework if not present.
+3. Run the following command at the terminal:  nmp install
+
+# How to use it
+1. Open a CLI terminal where you installed the software
+2. Make sure you are in the correct path and executes the following to run it:  node index.js
+3. Follow directions and provide the data required needed for the README file.
+4. The README file will be created in the same directory.
+
+Video instructions

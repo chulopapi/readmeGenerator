@@ -15,7 +15,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Enter Description of your project: ",
+        message: "Please enter Description of your project: ",
         name: "description",
     },
     {
@@ -26,18 +26,18 @@ const questions = [
     },
     {
         type: "input",
-        message: "Describe the use of this project?",
+        message: "Please describe the use of this project?",
         name: "usage",
     },
     {
-        type: 'list',
-        message: 'Please choose a license you used for this project.',
-        name: 'lic',
-        choices: ['GNU GPLv3', 'GNU LGPLv3', 'Mozilla', 'MIT', 'Apache', 'Boost']
+        type: "list",
+        message: "Please choose a license you used for this project.",
+        name: "lic",
+        choices: ['Unlicense','GNU LGPL v3','GNU GPL v3','Mozilla Public License 2.0','MIT','Apache License 2.0','Boost Software License 1.0',]
     },
     {
         type: "input",
-        message: "Describe how to contribute to this project?",
+        message: "Please describe how to contribute to this project?",
         name: "contribution",
     },
     {
@@ -67,6 +67,7 @@ function writeToFile(fileName, data) {
             return console(err);
         }
     });
+    // console.log("README.md generated succesfully");
 }
 
 // function to initialize program
