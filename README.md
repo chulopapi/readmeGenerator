@@ -20,4 +20,4 @@ This program uses a simple command line using Inquirer package for Node.js.  The
 Video instructions: Per request only
 
 Sample of the README file created:
-<img width="1182" alt="Screen Shot 2020-07-26 at 12 09 36 AM" src="https://user-images.githubusercontent.com/14985358/88473651-7df7c580-ced4-11ea-8970-a1707c807b77.png">
+<img width="1093" alt="Screen Shot 2020-07-26 at 4 30 03 PM" src="https://user-images.githubusercontent.com/14985358/88492208-da52f780-cf5d-11ea-87e7-abcb5a177ff7.png">
