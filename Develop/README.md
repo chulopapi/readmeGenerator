@@ -1,8 +1,9 @@
-# Title:  SafeTravels is a tools to make you don't get sick
-# description:  This is a project to safeTravels
-# installation:  This is what you need to do
+# Project Title: SafeTravels
+# Description:  This is a project to get you safe when traveling
+# Installation:  The requirements are to follow, common sense
+# Project use:  simple, go to the site
 # License:  MIT
-# Contribution:  Just send money directly to my paypal account
-# Test:  yes, Yo know it
+# Contribution:  just send money
+# Test:  none
 # Github UserName:  chulopapi
 # User Email:  marlon.guandique@gmail.com

@@ -1,9 +1,11 @@
+//Written by Marlon Guandique
 //definition of read and write files and inquire module
 
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
-console.log('THIS IS BETA')
+console.log('Launching README.md file generator program')
+
 // Prompt the user for questions
 const questions = [
     {
@@ -25,7 +27,7 @@ const questions = [
     {
         type: "input",
         message: "Describe the use of this project?",
-        name: "title",
+        name: "usage",
     },
     {
         type: 'list',
@@ -56,36 +58,6 @@ const questions = [
     },
 ];
 
-
-
-// Writing the user response to a file by chaining the below callback method to the prompt above.
-//.then(function(data) {
-// Generate the name of your user file from their input
-//const filename =
-//   data.name
-//      .toLowerCase()
-//      .split(' ')
-//      .join('') + '.json';
-
-////  fs.writeFile(filename, JSON.stringify(data, null, '\t'), function(err) {
-//    if (err) {
-//     return console.log(err);
-//   }
-
-//  console.log('Success!');
-// });
-// });
-
-
-// array of questions for user
-//const questions = [
-//  {
-//  type: "input",
-//  message: "What is your project title?",
-//  name: "title",
-////  },
-//];
-
 // function to write README file
 function writeToFile(fileName, data) {
     let inputData = generateMarkdown(data);
@@ -98,6 +70,7 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
+// Added  catch error 
 async function init() {
     inquirer
         .prompt(questions)
