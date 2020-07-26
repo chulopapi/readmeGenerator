@@ -17,4 +17,7 @@ This program uses a simple command line using Inquirer package for Node.js.  The
 3. Follow directions and provide the data required needed for the README file.
 4. The README file will be created in the same directory.
 
-Video instructions
+Video instructions: Per request only
+
+Sample of the README file created:
+<img width="1182" alt="Screen Shot 2020-07-26 at 12 09 36 AM" src="https://user-images.githubusercontent.com/14985358/88473651-7df7c580-ced4-11ea-8970-a1707c807b77.png">
