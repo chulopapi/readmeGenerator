@@ -22,7 +22,7 @@ const questions = [
         type: "input",
         message: "What are the installation instructions for your project?",
         name: "installation",
-        default: "There are no specific intallation for this project”"
+        default: "There are no specific intallation for this project"
     },
     {
         type: "input",
