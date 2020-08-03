@@ -1,50 +1,25 @@
+# [](#) &middot; [![License:] MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [Contribution](#Contribution)
+* [Test](#Test)
+* [Questions](#Questions)
+# Installation
+`There are no specific intallation for this project`
 
-    # Project Title: SafeTravels
+# Usage
+``
+License:  Mozilla Public License 2.0
 
-    
-    
-    ## Description:  This project is a tool to help travelers on a safe destination
+# Contribution
+``
 
-    
-    
+# Test
+`No test provided`
 
+# UserName
+``
 
-
-  ## Table of Contents
-
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Test](#test)
-  * [Questions](#questions)
-  
-      
-    ## Installation instructions:  Clone the repo and install node.js framework
-
-    
-    
-    ## Project use:  Very simple, just launch the program and answers the questions
-
-    
-    
-    ## License:  Mozilla Public License 2.0
-
-    
-    
-    ## Contribution:  By donating to my paypal account
-
-    
-    
-    ## Test:  No test provided
-
-    
-    
-    ## Github UserName: chulopapi
-
-    
-    
-    ## User Email:  marlon.guandique@gmail.com
-
-    
-    Please email me if you have questions at the above email address
+# UserMail
+``
