@@ -14,15 +14,15 @@ const mapOfKeyToMarkDown = new Map([
 const mapOfLicenseToBadge = new Map([
   ['Apache License 2.0','[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'],
 
- ['Boost Software License 1.0','[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'],
+  ['Boost Software License 1.0','[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'],
 
- ['GNU LGPL v3','[![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)'],
+  ['GNU LGPL v3','[![License](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)'],
 
-  ['GNU GPL v3','[![License:] GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'],
+  ['GNU GPL v3','[![License:](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'],
 
-  ['MIT','[![License:] MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
+  ['MIT','[![License:](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
 
-  ['Mozilla Public License 2.0','[![License:] MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)']
+  ['Mozilla Public License 2.0','[![License:](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)']
 
 ]);
 
@@ -47,7 +47,7 @@ function generateMarkdown(data) {
       results += `\n* [Usage](#usage)`;
       results += `\n* [Contribution](#Contribution)`;
       results += `\n* [Test](#Test)`;
-      results += `\n* [Questions](#Questions)`;
+      results += `\n* [Questions](#userMail)`;
 
     } else if (key == 'installation') {
       results +=`\n# Installation\n\`${data[key]}\`\n`;
@@ -61,8 +61,8 @@ function generateMarkdown(data) {
       results +=`\n# UserMail\n\`${data[key]}\`\n`;
     } else if (key == 'userName') {
       results +=`\n# UserName\n\`${data[key]}\`\n`;
-    } else if (key == 'questions') {
-      results +=`\n# UserName\n\`If you have any questions about this project, please contact me via email at <${data.email}> or [on GitHub](https://github.com/${data.userName})`;
+    } else if (key == 'userMeail') {
+      results +=`\n# UserName\n\`If you have any questions about this project, please contact me via email at <${data.key}> or [on GitHub](https://github.com/${data.userName})`;
     } else {
       results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;
     }
