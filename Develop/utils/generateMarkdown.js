@@ -47,7 +47,7 @@ function generateMarkdown(data) {
       results += `\n* [Usage](#usage)`;
       results += `\n* [Contribution](#Contribution)`;
       results += `\n* [Test](#Test)`;
-      results += `\n* [Questions](#userEmail)`;
+      results += `\n* [Questions](#Contact)`;
 
     } else if (key == 'installation') {
       results += `\n# Installation\n\`${data[key]}\`\n`;
@@ -58,16 +58,18 @@ function generateMarkdown(data) {
     } else if (key == 'test') {
       results += `\n# Test\n\`${data[key]}\`\n`;
     } else if (key == 'userEmail') {
-      results += `\n# Questions? please contact me via email at <${data.userEmail}> \n\`${data[key]}`;
-    } else if (key == 'userName') {
-      results += `\n# Check out my work on [GitHub](https://github.com/${data.userName})\n\`${data[key]}\`\n`;
-    } else if (key == 'userEmail') {
-      results += `\n# Questions\n\`${data.key}\`\n`;
-    } else {
-      results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;
+      results += `\n# Contact \n`;
+      results += `\n## Questions? please contact me via email at <${data.userEmail}> \n`;
+    } else if (key == 'userName') { 
+      results += `\n## Check out my work on [${data.userName}](https://github.com/${data.userName})\n`; 
     }
+    // } else if (key == 'userEmail') {
+    //   results += `\n# Questions\n\`${data.key}\`\n`; }
+    // } else {
+    //   results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;
+    // }
 
-    `\`${data[key]}\``
+//`\`${data[key]}\``
 
   }
   );
