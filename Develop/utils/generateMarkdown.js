@@ -63,14 +63,6 @@ function generateMarkdown(data) {
     } else if (key == 'userName') { 
       results += `\n## Check out my work on [${data.userName}](https://github.com/${data.userName})\n`; 
     }
-    // } else if (key == 'userEmail') {
-    //   results += `\n# Questions\n\`${data.key}\`\n`; }
-    // } else {
-    //   results += `${mapOfKeyToMarkDown.get(key)} ${data[key]}\n`;
-    // }
-
-//`\`${data[key]}\``
-
   }
   );
   return results;

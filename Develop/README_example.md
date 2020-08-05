@@ -1,50 +1,24 @@
+# [Project Title Here](#Project Title Here) &middot; [![License:](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#usage)
+* [Contribution](#Contribution)
+* [Test](#Test)
+* [Questions](#Contact)
+# Installation
+`There are no specific intallation for this project`
 
-    # Project Title: SafeTravels
+# Usage
+`Description of how to use your project`
 
-    
-    
-    ## Description:  This project is a tool to help travelers on a safe destination
+# Contribution
+`How to contribute, PAYPAL? APPLE CASH?`
 
-    
-    
+# Test
+`No test provided`
 
+## Check out my work on [chulopapi](https://github.com/chulopapi)
 
+# Contact 
 
-  ## Table of Contents
-
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
-  * [Test](#test)
-  * [Questions](#questions)
-  
-      
-    ## Installation instructions:  Clone the repo and install node.js framework
-
-    
-    
-    ## Project use:  Very simple, just launch the program and answers the questions
-
-    
-    
-    ## License:  Mozilla Public License 2.0
-
-    
-    
-    ## Contribution:  By donating to my paypal account
-
-    
-    
-    ## Test:  No test provided
-
-    
-    
-    ## Github UserName: chulopapi
-
-    
-    
-    ## User Email:  marlon.guandique@gmail.com
-
-    
-    Please email me if you have questions at the above email address
+## Questions? please contact me via email at <marlon.guandique@gmail.com> 
