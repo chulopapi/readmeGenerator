@@ -21,4 +21,4 @@ This program uses a simple command line using Inquirer package for Node.js.  The
 [Video Instructions on running the program](https://drive.google.com/file/d/1ndI5u0eCjlR-hIp_ZlneB6R6nbK-efOC/view?usp=sharing)
 
 Sample of the README file created:
-<img width="1093" alt="Screen Shot 2020-07-26 at 4 30 03 PM" src="https://user-images.githubusercontent.com/14985358/88492208-da52f780-cf5d-11ea-87e7-abcb5a177ff7.png">
+<img width="1190" alt="Screen Shot 2020-08-05 at 5 01 02 PM" src="https://user-images.githubusercontent.com/14985358/89475756-b9e52300-d73d-11ea-84bc-dc8f54f51cde.png">
